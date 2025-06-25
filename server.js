@@ -31,4 +31,5 @@ mongoose
     });
   })
   //Error
+  //cometarioparacambiobcryptjs
   .catch((err) => console.error("❌ Error conectando MongoDB:", err));
