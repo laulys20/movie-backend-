@@ -30,4 +30,5 @@ mongoose
       console.log(`🚀 Servidor corriendo en el puerto ${process.env.PORT}`);
     });
   })
+  //Error
   .catch((err) => console.error("❌ Error conectando MongoDB:", err));
